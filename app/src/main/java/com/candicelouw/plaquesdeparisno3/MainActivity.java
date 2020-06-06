@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-
+        myWebView = (WebView) findViewById(R.id.myWebView);
+        myWebView.loadUrl("file:///android_asset/plaquesdeparisno3.html");
     }
 }
