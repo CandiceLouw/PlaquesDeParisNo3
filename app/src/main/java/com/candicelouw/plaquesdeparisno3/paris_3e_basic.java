@@ -9,6 +9,10 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.widget.RemoteViews;
 
+/**
+ * Authored by: Candice Louw 2020-06-06
+ */
+
 public class paris_3e_basic extends AppWidgetProvider {
     public void onReceive(Context context, Intent intent)
     {
@@ -21,7 +25,6 @@ public class paris_3e_basic extends AppWidgetProvider {
 
             PackageManager packageManager = context.getPackageManager();
             Intent alarmClockIntent = new Intent(Intent.ACTION_MAIN).addCategory(Intent.CATEGORY_LAUNCHER);
-
 
             String clockImpls[][] = {
                     { "HTC", "com.htc.android.worldclock",
