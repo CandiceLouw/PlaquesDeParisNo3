@@ -18,5 +18,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         myWebView = (WebView) findViewById(R.id.myWebView);
         myWebView.loadUrl("file:///android_asset/plaquesdeparisno3.html");
+
     }
 }
