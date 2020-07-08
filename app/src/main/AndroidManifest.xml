@@ -34,6 +34,12 @@
             </intent-filter>
             <meta-data android:name="android.appwidget.provider" android:resource="@xml/paris_3e_ruedesarchives"/>
         </receiver>
+        <receiver android:name="com.candicelouw.plaquesdeparisno3.paris_3e_ruedutemple" android:label="&#8470; 3 | Rue du Temple">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/paris_3e_ruedutemple"/>
+        </receiver>
 
     </application>
 
